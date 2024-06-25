@@ -1,0 +1,214 @@
+/* Default light mode styles */
+body {
+  background-color: #f8f9fa; /* Example light mode background color */
+  color: #000; /* Example light mode text color */
+}
+
+.navbar {
+  background-color: #f8f9fa; /* Example light mode navbar background color */
+  color: #000; /* Example light mode navbar text color */
+}
+
+.navbar .nav-link {
+  color: #000; /* Example light mode navbar link color */
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #333; /* Example dark mode background color */
+  color: #fff; /* Example dark mode text color */
+}
+
+.dark-mode .navbar {
+  background-color: #333; /* Example dark mode navbar background color */
+  color: #fff; /* Example dark mode navbar text color */
+}
+
+.dark-mode .navbar .nav-link {
+  color: #fff; /* Example dark mode navbar link color */
+}
+
+/* Toggle button styles */
+.btn-toggle-dark-mode {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.btn-toggle-dark-mode:focus {
+  outline: none;
+}
+
+
+
+
+
+@charset "UTF-8";
+/* CSS Document */
+/*==============================================================
+	Google Fonts
+==============================================================*/
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,600i,700,700i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fugaz+One&display=swap");
+
+/*==============================================================
+	Common Styles Initials
+==============================================================*/
+
+html {
+  -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+  width: 100%;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input[type="submit"] {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  min-height: 100%;
+  color: #727384;
+  background: #ffffff;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: #555;
+}
+
+a:hover,
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+input,
+textarea,
+select {
+  outline: none;
+  resize: none;
+  font-family: "Nunito", sans-serif;
+}
+
+a,
+input,
+button {
+  outline: none !important;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  color: #434343;
+  font-family: "Fugaz One", cursive;
+}
+
+img {
+  border: 0;
+  vertical-align: top;
+  max-width: 100%;
+  height: 30px;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+
+.slick-slide {
+  outline: none !important;
+}
+.slick-slider {
+  user-select: text;
+}
+/*==============================================================
+	CTA style start
+==============================================================*/
+.cta-btn {
+}
+.cta-btn .cta-link {
+  position: relative;
+  display: inline-block;
+  background: #d2d6ef;
+  color: #081c2d;
+  font-size: 15px;
+  min-width: 220px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  line-height: 18px;
+  font-weight: 400;
+  padding: 15px 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Fugaz One", cursive;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.cta-btn .cta-link.cta-block {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.cta-btn .cta-link i {
+  margin-right: 5px;
+}
+.cta-btn .cta-link:hover {
+  background: #081c2d;
+  color: #d2d6ef;
+  -webkit-box-shadow: 0px 5px 20px rgba(0, 33, 71, 0.4);
+  -moz-box-shadow: 0px 5px 20px rgba(0, 33, 71, 0.4);
+  box-shadow: 0px 5px 20px rgba(0, 33, 71, 0.4);
+}
+/*==============================================================
+	CTA style end
+==============================================================*/
+
+/*  banner section image ccss Start */
+
+
+
+/*  banner section image ccss End */
